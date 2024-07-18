@@ -1,1 +1,14 @@
-/*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #E6E6FA;
+    transition: background-color 0.3s;
+}
